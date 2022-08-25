@@ -1,0 +1,8 @@
+while true do
+wait(0.1)
+local args = {
+    [1] = "VoidPistol"
+}
+
+game:GetService("ReplicatedStorage").Remotes.universal:FireServer(unpack(args))
+end
